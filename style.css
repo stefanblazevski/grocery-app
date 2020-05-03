@@ -69,6 +69,7 @@ form button:hover {
 
 .todo-input {
   border-radius: 5px 0px 0px 5px;
+  margin-right: -5px;
 }
 
 .todo li {
@@ -163,4 +164,37 @@ select {
   padding: 10px;
   opacity: 0.8;
   pointer-events: none;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form input,
+  form button {
+    margin: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form input,
+  form button {
+    margin: auto;
+    font-size: 1.5rem;
+  }
+
+  select {
+    padding: 0.8rem;
+  }
+
+  .select::after {
+    top: -7px;
+  }
 }
