@@ -196,7 +196,7 @@ select {
   form input,
   form button {
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   
   .deleted-btn,
@@ -209,7 +209,7 @@ select {
   }
 
   select {
-    padding: 0.8rem;
+    padding: 0.7rem;
   }
 
   .select::after {
