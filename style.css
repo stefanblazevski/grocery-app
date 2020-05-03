@@ -176,6 +176,15 @@ select {
   form button {
     margin: auto;
   }
+  
+  .deleted-btn,
+  .completed-btn {
+    padding: 0.9rem;
+  }
+
+  .todo {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -188,6 +197,15 @@ select {
   form button {
     margin: auto;
     font-size: 1.5rem;
+  }
+  
+  .deleted-btn,
+  .completed-btn {
+    padding: 0.9rem;
+  }
+
+  .todo {
+    font-size: 1.3rem;
   }
 
   select {
